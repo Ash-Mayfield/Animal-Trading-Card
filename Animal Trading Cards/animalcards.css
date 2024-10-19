@@ -1,0 +1,63 @@
+
+body {
+    background-color: black;
+    margin: auto;
+    max-width: 310px;
+    min-width: 310px;
+    border: 1px solid white;
+}
+
+div {
+    background-color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.wolfie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+ 
+.wolfie img {
+    display: grid;
+    justify-content: center;
+    min-width: 300px;
+}
+
+.specifics {
+    display:inline-block;
+    border: 5px solid black;
+    border-width: 10px; 
+
+
+}
+
+h1 {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large; font-style: italic;
+    text-align: left;
+}
+
+li {
+    color: goldenrod; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+
+li span {
+    color: black;
+    font-weight: bold;
+}
